@@ -13,9 +13,9 @@ With a majority of my 16 years in enterprise security, software and engineering 
 
 ### [Axon](https://logrhythm.com/products/logrhythm-axon/)
 
-A greenfield 
+A greenfield rewrite of LogRhythm's core data security analytics product as a highly scalable, highly available, multi-cloud/on-prem hybrid multi-tenant security intelligence and event management system.
 
-In 2019 The VP of SE, one director, two architects and I (platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years we began designing, building, hiring, and evangelizing the new platform while delivering on a very tight timeline.  Everyone said it would take 5 years and we were tasked with building it in 3.
+In 2019 The VP of SE, one director, two architects and I (platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years, following cloud native industry best practices, we began designing, building, testing, hiring, teaching and evangelizing the new platform while delivering on a very tight timeline.
 
 Here are some of the industry principles, requirements, and best practices we used to accomplish our goal:
 
@@ -23,8 +23,11 @@ Here are some of the industry principles, requirements, and best practices we us
 - Infrastructure, pipeline, services, configuration, environments and platform.  Why? For the single source of truth, visibility, collaboration, versioning, security and auditing that a central VCS can provide.  It forces you to introduce developer tools to non-developers, which is tough but worth it in the end because it lends well to collaborating in globally distributed work force.  
 - Atomic commits = atomic versions which enables intelligent service deployments (rollforward/rollback).  
 - Most VCS systems include deep integrations for CI/CD tools, i.e github actions to build a full SDLC out of parallelizable, on-demand, asynchronous workflows for continuously building, testing, scanning, releasing, deploying and promoting services.  The chosen CI/CD tool should allow for custom runtime.
-- The platform will combine both synchronous and asynchronous architectures with a 
-- The chosen language must be widely used in enterprise computing, 
+</p></details>
+
+<details><summary>Business Logic and Services</summary><p>
+- The platform will combine both synchronous and asynchronous architectures with a preference given to asynchronous services that can be parallelized and stateless.  For services that require state should 
+- The chosen language must be widely used in enterprise computing,
 </p></details>
   
 <details><summary>API First</summary><p>
@@ -36,6 +39,8 @@ Here are some of the industry principles, requirements, and best practices we us
 <details><summary>Opensource First</summary><p>
 - # TODO: complete  section
 </p></details>
+
+> # Under Construction - Jim C - 1/13/22 
 
 
 # Scripts and Utilities
