@@ -1,4 +1,5 @@
-# Senior Platform Software Engineer
+
+# Jim Clair - Senior Platform Software Engineer
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -8,6 +9,8 @@
 With a majority of my 16 years in enterprise security, software and engineering fields I can only share a small collection of my full portfolio due to most of the software and solutions being proprietary.  Below is a list of projects which were deemed fit for public consumption.
 
 ## LogRhythm
+
+> :warning: ** Section Under Construction - Jim C - 1/17/23**
 
 ### [Axon](https://logrhythm.com/products/logrhythm-axon/)
 
@@ -39,11 +42,36 @@ Here are some of the industry principles, requirements, and best practices I lea
 <li> # TODO: complete  section</li>
 </ul></details>
 
-> # Under Construction - Jim C - 1/17/23
 
+## Western Governers University
+> :warning: ** Section Under Construction - Jim C - 1/17/23**
+
+### [TeamScheduler](https://github.com/jamesclair/TeamScheduler)
+TeamScheduler is an application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
+
+TeamScheduler is an extendable application that a global service team could use for scheduling, tracking and reporting of customer appointments.
+
+### [CareerAdvisorBot](https://github.com/jamesclair/CareerAdvisorBot)
+
+### [InventorySystem](https://github.com/jamesclair/InventorySystem)
+InventorySystem was an app I built while learning JavaFX and MVC patterns.  *It was the precursor to TeamScheduler project above.*
+
+### [CareerAdvisorBot]()
+
+## Continuous Learning
+
+### Data Structures and Algorithms Implementations
+
+- [AlmostIncreasingSequenceAlgorithm](https://github.com/jamesclair/AlmostIncreasingSequenceAlgorithm)
+- [unlivable_rooms_algorithm](https://github.com/jamesclair/unlivable_rooms_algorithm)
+- [find_longest_strings_algorithm](https://github.com/jamesclair/find_longest_strings_algorithm)
+- [common_letter_counter_algorithm](https://github.com/jamesclair/common_letter_counter_algorithm)
+- [integer_halves_sum_comparer](https://github.com/jamesclair/integer_halves_sum_comparer)
+
+### [REST Security in Spring Boot](https://github.com/jamesclair/user_store)
 
 # Scripts and Utilities
   
 ### Update all vault entries using another entry 
 
-This script allows you to migrate from one path to another)
+This script allows you to migrate from one path to another
