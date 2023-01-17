@@ -10,7 +10,7 @@ With a majority of my 16 years in enterprise security, software and engineering 
 
 ## LogRhythm
 
-> :warning: ** Section Under Construction - Jim C - 1/17/23**
+> :warning: **Section Under Construction - Jim C - 1/17/23**
 
 ### [Axon](https://logrhythm.com/products/logrhythm-axon/)
 
@@ -44,7 +44,8 @@ Here are some of the industry principles, requirements, and best practices I lea
 
 
 ## Western Governers University
-> :warning: ** Section Under Construction - Jim C - 1/17/23**
+
+> :warning: **Section Under Construction - Jim C - 1/17/23**
 
 ### [TeamScheduler](https://github.com/jamesclair/TeamScheduler)
 TeamScheduler is an application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
@@ -59,6 +60,8 @@ InventorySystem was an app I built while learning JavaFX and MVC patterns.  *It 
 ### [CareerAdvisorBot]()
 
 ## Continuous Learning
+
+> :warning: **Section Under Construction - Jim C - 1/17/23**
 
 ### Data Structures and Algorithms Implementations
 
