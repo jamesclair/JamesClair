@@ -47,17 +47,17 @@ Here are some of the industry principles, requirements, and best practices I lea
 > :warning: **Section Under Construction - Jim C - 1/17/23**
 
 ### [DeliveryPathFinder](https://github.com/jamesclair/DeliveryPathFinder)
-DeliveryPathFinder is an application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.
+DeliveryPathFinder is a pythonn application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.  The intention of this project wasn't to build the cleanest most re-usable code, it was instead to solve a complex problem with dynamic programming and self-adjusting data structures in the most efficient way possible.
 
 ### [TeamScheduler](https://github.com/jamesclair/TeamScheduler)
-TeamScheduler is an application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
+TeamScheduler is a Java application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
 
 TeamScheduler is an extendable application that a global service team could use for scheduling, tracking and reporting of customer appointments.
 
 ### [CareerAdvisorBot](https://github.com/jamesclair/CareerAdvisorBot)
 
 ### [InventorySystem](https://github.com/jamesclair/InventorySystem)
-InventorySystem was an app I built while learning JavaFX and MVC patterns.  *It was the precursor to TeamScheduler project above.*
+InventorySystem was a java app I built while learning JavaFX and MVC patterns.  (*It was the precursor to TeamScheduler project above.*)
 
 ### [CareerAdvisorBot]()
 
