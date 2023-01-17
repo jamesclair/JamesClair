@@ -3,10 +3,9 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-
 # Projects
 
-With a majority of my 16 years in enterprise security, software and engineering fields I can only share a small collection of my full portfolio due to most of the software and solutions being proprietary.  Below is a list of projects which were deemed fit for public consumption.
+With a majority of my 16 years in enterprise software engineering fields I can only share a small collection of my full portfolio due to most of the software and solutions being proprietary.  Below is a list of projects which were deemed fit for public consumption.
 
 ## LogRhythm
 
@@ -47,6 +46,9 @@ Here are some of the industry principles, requirements, and best practices I lea
 
 > :warning: **Section Under Construction - Jim C - 1/17/23**
 
+### [DeliveryPathFinder](https://github.com/jamesclair/DeliveryPathFinder)
+DeliveryPathFinder is an application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.
+
 ### [TeamScheduler](https://github.com/jamesclair/TeamScheduler)
 TeamScheduler is an application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
 
@@ -74,7 +76,6 @@ InventorySystem was an app I built while learning JavaFX and MVC patterns.  *It 
 ### [REST Security in Spring Boot](https://github.com/jamesclair/user_store)
 
 # Scripts and Utilities
-  
-### Update all vault entries using another entry 
 
-This script allows you to migrate from one path to another
+> :warning: **Section Under Construction - Jim C - 1/17/23**
+
