@@ -7,94 +7,99 @@
 
 With a majority of my 16 years in enterprise software engineering fields I can only share a small collection of my full portfolio due to most of the software and solutions being proprietary.  Below is a list of projects which were deemed fit for public consumption.
 
-## LogRhythm
+<details><summary><href>
+<a href="https://logrhythm.com/products/logrhythm-axon/">Axon</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/17/23**
 
-### <details><summary>[Axon](https://logrhythm.com/products/logrhythm-axon/)</summary>
- 
-<blockquote>
+<blockquote>A greenfield rewrite of LogRhythm's core data security analytics product as a highly scalable, highly available, multi-cloud/on-prem hybrid multi-tenant security intelligence and event management system.</br> 
+In 2019 The VP of SE, one director, two architects and I (platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years, following cloud native industry best practices, we began designing, building, testing, hiring, teaching and evangelizing the new platform while delivering on a very tight timeline.</br></br>
 
-A greenfield rewrite of LogRhythm's core data security analytics product as a highly scalable, highly available, multi-cloud/on-prem hybrid multi-tenant security intelligence and event management system.
-
-In 2019 The VP of SE, one director, two architects and I (platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years, following cloud native industry best practices, we began designing, building, testing, hiring, teaching and evangelizing the new platform while delivering on a very tight timeline.
-
-Here are some of the the design principals we chose:
-
-<details><summary>Everything As Code</summary>
-<blockquote>
-<ul>
- <li>Infrastructure, pipeline, services, configuration, environments and platform.  Why? For the single source of truth, visibility, collaboration, versioning, security and auditing that a central VCS can provide.  It forces you to introduce developer tools to non-developers, which is tough but worth it in the end because it lends well to collaborating in globally distributed work force.</li>  
-<li>Atomic commits = atomic versions which enables intelligent service deployments (rollforward/rollback).</li>
-<li> Most VCS systems include deep integrations for CI/CD tools, i.e github actions to build a full SDLC out of parallelizable, on-demand, asynchronous workflows for continuously building, testing, scanning, releasing, deploying and promoting services.  The chosen CI/CD tool should allow for custom runtime.</li>
-</ul>
-</blockquote>
-</details>
-
-<details><summary>Business Logic and Services</summary>
-<blockquote>
-<ul>
-<li> The platform will combine both synchronous and asynchronous architectures with a preference given to asynchronous services that can be parallelized and stateless.  Stateless svcs are much cheaper as they can easily scale on-demand and because they have no state to track, store, or recover after an unexpected issue these services are easier and cheaper to manage.  For services that require state, the details of that state like how it is stored, retrieved, and processed should be abstracted away from any other entity outside of the service's namespace.  If another entity is dependent on knowledge derived from another service's state it should go through the services API.  Isolating access all stateful service's data to an audited API we can better enforce security policies, schemas and validations around how that information will be shared and referred to while keeping other REST clients unaware of the details of how the data or algorithms functioned internal to the service.</li>
-<li> The chosen language must be widely used in enterprise computing</li>
-</ul>
-</blockquote>
-</details>
+**Design Principals**
   
-<details><summary>API First</summary>
-<blockquote>
-<ul>
-<li> The platform should be able to receive and respond quickly to very large, apikey and fluctuating volumes of data from remote connections.  As well as support concurrent, and geographically sparse connections from users of any externally exposed APIs and UIs.  Both types of connections should be scalable, load balanced, and deployable to MOST global regions.</li>
-<li> Data sent should be stored and replicated to a distributed and highly available datastore.</li>
-<li> The service should be highly available starting at three 99.9's and moving to four 99.99% uptime with monitoring.</li>
-</ul>
-</blockquote>
-</details>
+  <details><summary>Gitops</summary>
   
-<details><summary>Opensource First</summary>
-<blockquote>
-<ul>
-<li> # TODO: complete  section</li>
-</ul>
-</blockquote>
-</details>
+  <ul>
+   <li>Infrastructure, pipeline, services, configuration, environments and platform should all be code.  Why? For the single source of truth, visibility, collaboration, versioning, security and auditing that a central VCS can provide.  It forces you to introduce developer tools to non-developers, which is tough but worth it in the end because it lends well to collaborating in globally distributed work force.</li>  
+  <li>Atomic commits = atomic versions which enables intelligent service deployments (rollforward/rollback).</li>
+  <li> Most VCS systems include deep integrations for CI/CD tools, i.e github actions to build a full SDLC out of parallelizable, on-demand, asynchronous workflows for continuously building, testing, scanning, releasing, deploying and promoting services.  The chosen CI/CD tool should allow for custom runtime.</li>
+  </ul>
+  </details>
+  
+  <details><summary>Service Design</summary>
+  <ul>
+  <li> The platform will combine both synchronous and asynchronous architectures with a preference given to asynchronous services that can be parallelized and stateless.  Stateless svcs are much cheaper as they can easily scale on-demand and because they have no state to track, store, or recover after an unexpected issue these services are easier and cheaper to manage.  For services that require state, the details of that state like how it is stored, retrieved, and processed should be abstracted away from any other entity outside of the service's namespace.  If another entity is dependent on knowledge derived from another service's state it should go through the services API.  Isolating access all stateful service's data to an audited API we can better enforce security policies, schemas and validations around how that information will be shared and referred to while keeping other REST clients unaware of the details of how the data or algorithms functioned internal to the service.</li>
+  <li> The chosen language must be widely used in enterprise computing</li>
+  </ul>
+  </details>
+    
+  <details><summary>API First</summary>
+  <ul>
+  <li> The platform should be able to receive and respond quickly to very large, apikey and fluctuating volumes of data from remote connections.  As well as support concurrent, and geographically sparse connections from users of any externally exposed APIs and UIs.  Both types of connections should be scalable, load balanced, and deployable to MOST global regions.</li>
+  <li> Data sent should be stored and replicated to a distributed and highly available datastore.</li>
+  <li> The service should be highly available starting at three 99.9's and moving to four 99.99% uptime with monitoring.</li>
+  </ul>
+  </details>
+    
+  <details><summary>Opensource First</summary>
+   
+   > :warning: **Section Under Construction - Jim C - 1/17/23**
+
+  </details>
+
+   <details><summary>Least Priviledge</summary>
+   
+   > :warning: **Section Under Construction - Jim C - 1/17/23**
+
+  </details>
 
 </blockquote>
 </details>
 
-## Western Governers University
+<details><summary><href>
+<a href="https://github.com/jamesclair/DeliveryPathFinder">DeliveryPathFinder</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/17/23**
+DeliveryPathFinder is a python application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.  The intention of this project wasn't to build the cleanest most re-usable code, it was instead to solve a complex problem with dynamic programming and self-adjusting data structures in the most efficient way possible.
+</details>
 
-### [DeliveryPathFinder](https://github.com/jamesclair/DeliveryPathFinder)
-DeliveryPathFinder is a pythonn application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.  The intention of this project wasn't to build the cleanest most re-usable code, it was instead to solve a complex problem with dynamic programming and self-adjusting data structures in the most efficient way possible.
-
-### [TeamScheduler](https://github.com/jamesclair/TeamScheduler)
+<details><summary><href>
+<a href="https://github.com/jamesclair/TeamScheduler">TeamScheduler</a></summary>
 TeamScheduler is a Java application I created for my B.S. in Computer Science. The project was meant to demonstrate competency in object oriented patterns, lambda functional programming, SQL/JDBC integration, encapsulation, abstraction, exception handling, APIs, Internationalization/Localization, Java and JavaFX.  This project implements a combination of the MVC, DAO, factory, and singleton software design patterns.
 
 TeamScheduler is an extendable application that a global service team could use for scheduling, tracking and reporting of customer appointments.
+</details>
 
-### [CareerAdvisorBot](https://github.com/jamesclair/CareerAdvisorBot)
-
-### [InventorySystem](https://github.com/jamesclair/InventorySystem)
-InventorySystem was a java app I built while learning JavaFX and MVC patterns.  (*It was the precursor to TeamScheduler project above.*)
-
-### [CareerAdvisorBot]()
-
-## Continuous Learning
+<details><summary><href>
+<a href="https://github.com/jamesclair/CareerAdvisorBot">CareerAdvisorBot</a></summary>
 
 > :warning: **Section Under Construction - Jim C - 1/17/23**
 
-### Data Structures and Algorithms Implementations
+</details>
+
+<details><summary><href>
+<a href="https://github.com/jamesclair/InventorySystem">InventorySystem</a></summary>
+InventorySystem was a java app I built while learning JavaFX and MVC patterns.  (*It was the precursor to TeamScheduler project above.*)
+
+</details>
+
+<details><summary>Data Structures and Algorithms</summary>
 
 - [AlmostIncreasingSequenceAlgorithm](https://github.com/jamesclair/AlmostIncreasingSequenceAlgorithm)
 - [unlivable_rooms_algorithm](https://github.com/jamesclair/unlivable_rooms_algorithm)
 - [find_longest_strings_algorithm](https://github.com/jamesclair/find_longest_strings_algorithm)
 - [common_letter_counter_algorithm](https://github.com/jamesclair/common_letter_counter_algorithm)
 - [integer_halves_sum_comparer](https://github.com/jamesclair/integer_halves_sum_comparer)
+</details>
 
-### [REST Security in Spring Boot](https://github.com/jamesclair/user_store)
-
-# Scripts and Utilities
+<details><summary><a href="https://github.com/jamesclair/user_store">REST Security in Spring Boot</a></summary>
 
 > :warning: **Section Under Construction - Jim C - 1/17/23**
+
+</details>
+
+<details><summary>Scripts and Utilities</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/17/23**
+
+</details>
+
 
