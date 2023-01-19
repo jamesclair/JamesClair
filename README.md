@@ -5,18 +5,21 @@
 
 # Projects
 
-With a majority of my 16 years in enterprise software engineering fields I can only share a small collection of my full portfolio due to most of the software and solutions being proprietary.  Below is a list of projects which were deemed fit for public consumption.
+Below is a list of some of my most notable projects.  Some projects are proprietary and are therefore described using only with already publically available information.
 
 <details><summary><href>
 <a href="https://logrhythm.com/products/logrhythm-axon/">Axon</a></summary>
 
 
-<blockquote>A greenfield rewrite of LogRhythm's core data security analytics product as a highly scalable, highly available, multi-cloud/on-prem hybrid multi-tenant security intelligence and event management system.</br> 
-In 2019 The VP of SE, one director, two architects and I (platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years, following cloud native industry best practices, we began designing, building, testing, hiring, teaching and evangelizing the new platform while delivering on a very tight timeline.</br></br>
+<blockquote>A proprietary greenfield rewrite of LogRhythm's core data security analytics product as a highly scalable, highly available, multi-cloud/on-prem hybrid multi-tenant security intelligence and event management system.</br> 
+
+In 2019 two architects and I (the platform engineering lead) set out to rebuild Logrhythm's core SIEM as a cloud first platform.  For the next three years, following cloud native industry best practices, we began designing, building, testing, hiring, teaching and evangelizing the new platform while delivering on a very tight timeline.  The Axon platform went GA on Oct. 2022.</br></br>
 
 **Design Principals**
+
+  <blockquote>
   
-  <details><summary>Gitops</summary>
+  <details><summary>GitOps, CI/CD and Infrastructure As Code</summary>
   
   <ul>
    <li>Infrastructure, pipeline, services, configuration, environments and platform should all be code.  Why? For the single source of truth, visibility, collaboration, versioning, security and auditing that a central VCS can provide.  It forces you to introduce developer tools to non-developers, which is tough but worth it in the end because it lends well to collaborating in globally distributed work force.</li>  
@@ -34,9 +37,10 @@ In 2019 The VP of SE, one director, two architects and I (platform engineering l
     
   <details><summary>API First</summary>
   <ul>
-  <li> The platform should be able to receive and respond quickly to very large, apikey and fluctuating volumes of data from remote connections.  As well as support concurrent, and geographically sparse connections from users of any externally exposed APIs and UIs.  Both types of connections should be scalable, load balanced, and deployable to MOST global regions.</li>
+  <li> The platform should be able to receive and respond quickly to very large fluctuating volumes of data from remote connections.  As well as support concurrent, and geographically sparse connections from users of any externally exposed APIs and UIs.  Both types of connections should be scalable, load balanced, and deployable to MOST global regions.</li>
   <li> Data sent should be stored and replicated to a distributed and highly available datastore.</li>
   <li> The service should be highly available starting at three 99.9's and moving to four 99.99% uptime with monitoring.</li>
+  <li> All connections must be encrypted, authenticated and authorized by an apikey or jwt</li>
   </ul>
   </details>
     
@@ -46,10 +50,23 @@ In 2019 The VP of SE, one director, two architects and I (platform engineering l
 
   </details>
 
-   <details><summary>Least Priviledge</summary>
+   <details><summary>Container First</summary>
    
    > :warning: **Section Under Construction - Jim C - 1/17/23**
 
+   </details>
+
+   <details><summary>DevSecOps</summary>
+   
+   > :warning: **Section Under Construction - Jim C - 1/17/23**
+
+  </details>
+  
+  </blockquote>
+  
+**Notable Accomplishments**
+  <details><summary>Terraform</summary>
+    Building and Designing our AWS infrastructure's base layer was one my first big projects for Axon.  We chose Terraform because of our need to support multiple clouds and on-prem, the teams familiarity with the technology, and Pulumi/CDK solutions weren't very mature yet.  Drawing on past experience from the LRCloud project and recent research I proposed a reusable multi-layer modular design connected together by Terragrunt.    Example layers would be global, vpc, and subnet.  Terragrunt is excellent for reducing duplicate code following DRY principals and allowed us to more easily compose all of our modules and layers into a single command.  We authored many new modules and combined them with upstream opensource modules to create our AWS accounts, ELB, Route53, gateways, IAM, VPC, S3, ECR, and security groups.  All necessary components of infrastructure for laying down self-managed kubernetes clusters.  We then wired the Terraform layer to output to json so we could consume it and feed it into our kubernetes layer allowing for integration and decoupling.  Our Terraform layer for Axon was so successful we used and extended it to migrate the newly procured Mistnet product into LogRhythm's AWS footprint a year later.
   </details>
 
 </blockquote>
@@ -58,7 +75,7 @@ In 2019 The VP of SE, one director, two architects and I (platform engineering l
 <details><summary><href>
 <a href="https://github.com/jamesclair/DeliveryPathFinder">DeliveryPathFinder</a></summary>
 
-DeliveryPathFinder is a python application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.  The intention of this project wasn't to build the cleanest most re-usable code, it was instead to solve a complex problem with dynamic programming and self-adjusting data structures in the most efficient way possible.
+DeliveryPathFinder is a python application that I chose to build in for my Data Structures and Algorithms 2 course while attaining my B.S. in CS. This program provides a shortest path solution for delivering a truck load of packages given their distance from a hub distribution center in Utah. To solve this my algorithm of choice was implementing Dijkstra shortest path algorithm.  The intention of this project wasn't to build the cleanest most re-usable code, it was instead to solve a complex problem with dynamic programming and self-adjusting data structures in the most efficient way possible.  There were much easier projects to pick from, however I wanted to really challenge my ability to understand complex graph traversals and other advanced DSA concepts.  If I have time in the future I would love to refactor this project using the clean code and software design principals that I have gained since this project.  There is certainly room for more named functions, less nested loops, tests, logging, and more efficient lookups, but it was never originally intended to be a long-lived/maintained project.
 </details>
 
 <details><summary><href>
@@ -96,10 +113,32 @@ InventorySystem was a java app I built while learning JavaFX and MVC patterns.  
 
 </details>
 
-<details><summary>Scripts and Utilities</summary>
+<details><summary>LRCloud</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/17/23**
-
+> :warning: **Section Under Construction - Jim C - 1/19/23**
 </details>
 
+<details><summary>Mistnet</summary>
 
+> :warning: **Section Under Construction - Jim C - 1/19/23**
+</details>
+
+<details><summary>AIE Cross Correlation</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/19/23**
+</details>
+
+<details><summary>Early Access Program</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/19/23**
+</details>
+
+<details><summary>Release Champion Program</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/19/23**
+</details>
+
+<details><summary>Mayo Clinic</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/19/23**
+</details>
