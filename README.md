@@ -46,19 +46,19 @@ I was responsible for the creation of an enterprise platform as well as hiring a
     
   <details><summary>Opensource First</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/17/23**
+   > :warning: **Section Under Construction - Jim C - 1/22/23**
 
   </details>
 
    <details><summary>Container First</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/17/23**
+   > :warning: **Section Under Construction - Jim C - 1/22/23**
 
    </details>
 
    <details><summary>DevSecOps</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/17/23**
+   > :warning: **Section Under Construction - Jim C - 1/22/23**
 
   </details>
   
@@ -70,10 +70,71 @@ I was responsible for the creation of an enterprise platform as well as hiring a
   <details><summary>Terraform</summary>
     Building and Designing our AWS infrastructure's base layer was one my first big projects for Axon.  We chose Terraform because of our need to support multiple clouds and on-prem, the teams familiarity with the technology, and Pulumi/CDK solutions weren't very mature yet.  Drawing on past experience from the LRCloud project and recent research I proposed a reusable multi-layer modular design connected together by Terragrunt.    Example layers would be global, vpc, and subnet.  Terragrunt is excellent for reducing duplicate code following DRY principals and allowed us to more easily compose all of our modules and layers into a single command.  We authored many new modules and combined them with upstream opensource modules to create our AWS accounts, ELB, Route53, gateways, IAM, VPC, S3, ECR, and security groups.  All necessary components of infrastructure for laying down self-managed kubernetes clusters.  We then wired the Terraform layer to output to json so we could consume it and feed it into our kubernetes layer allowing for integration and decoupling.  Our Terraform layer for Axon was so successful we used and extended it to migrate the newly procured Mistnet product into LogRhythm's AWS footprint a year later.
   </details>
-  <details><summary>AWS</summary>
+  <details><summary>AWS  Footprint</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/19/23**
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
   </details>
+  
+  <details><summary>IDP Integration (AWS, Okta, Keycloak, and Pomerium)</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Vault Operator</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Github Actions and CICD pipeline</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Auto Promotions</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Localdev Provisioning</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+
+  <details><summary>Microservice Operator (Ansible)</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>S3 Integration</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Firechief Program</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+  <details><summary>Kops CICD</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+    
+   <details><summary>Opensearch Operator (Golang)</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+
+  <details><summary>Sonarqube Scans</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+ 
+  <details><summary>Flink Operator(s)</summary>
+  
+  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  </details>
+
   </blockquote>
 </blockquote>
 </details>
@@ -94,7 +155,7 @@ TeamScheduler is an extendable application that a global service team could use 
 <details><summary><href>
 <a href="https://github.com/jamesclair/CareerAdvisorBot">CareerAdvisorBot</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/17/23**
+> :warning: **Section Under Construction - Jim C - 1/22/23**
 
 </details>
 
@@ -115,24 +176,31 @@ InventorySystem was a java app I built while learning JavaFX and MVC patterns.  
 
 <details><summary><a href="https://github.com/jamesclair/user_store">REST Security in Spring Boot</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/17/23**
+> :warning: **Section Under Construction - Jim C - 1/22/23**
 
 </details>
-
-<details><summary>LRCloud</summary>
-
-> :warning: **Section Under Construction - Jim C - 1/19/23**
-</details>
-
+  
 <details><summary>Mistnet</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/19/23**
+> :warning: **Section Under Construction - Jim C - 1/22/23**
+</details>
+  
+  
+
+<details><summary>LRCloud</summary>
+As our platform manager quickly became our toughest bottleneck with events, alarms, and metadata datastore volumes began to climb and repartitioning and maintenance jobs were unable to finish.  As a result queries slowed, indexing slowed, and retention decreased.  Unfortunately, Engineering was unable to find a cost-effective or viable path for migrating away from Microsoft SQL for the PM because it held too much of our business logic in stored procedures.  This would make it very difficult to replace the datastore without having to recreate or migrate all of that logic with it.  
+
+> :warning: **Section Under Construction - Jim C - 1/22/23**
 </details>
 
+<details><summary>CloudAI Service Launch</summary>
 
+> :warning: **Section Under Construction - Jim C - 1/22/23**
+</details>
+  
 <details><summary>Early Access Program</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/19/23**
+> :warning: **Section Under Construction - Jim C - 1/22/23**
 </details>
 
 <details><summary>Release Champion Program and Increased Release Cadence</summary>
@@ -140,16 +208,28 @@ InventorySystem was a java app I built while learning JavaFX and MVC patterns.  
 At this point my reputation for solving large complex issues was getting noticed and after speaking with the Co-Founder of LogRhythm Chris Peterson about the state of our releases and the future of DevOps, he asked me to become the new Global Technical Release Manager for LogRhythm.  This role was a hands-on technical role that would be focused on providing early feedback, product expertise, re-building our early access program, and standardizing your agile release processes across the entire company.  The first big project my Partner Crystal Gregory and I worked on was the Release Champion program.  This was a volunteer based program in which engineers PS, Sales, and Support would choose to champion an area of the product that aligned with an engineering team/product area.  Crystal or I would host a meeting between the champions and the engineering teams each sprint and new features, bugs, questions, and news would be discussed, planned, and documented.  According to our datasets we more than tripled our the internal content contributions, improved inter-org relationships, and chopped our Release Cycle down from almost a year to 6 months just by improving the way that we worked together.
 </details>
   
-<details><summary>AIE Cross Correlation Design, Optimization and 100k MPS</summary>
+<details><summary>AIE Cross Correlation Design, Best Practices Guide and 100k MPS</summary>
 
 While we had bought ourselves time with the ES migration, this was only the beginning though as our largest Advanced Intelligence Engine, an LR patented near-realtime streaming analytics service was only rated for 75k and its job was to correlate logs from one device with a log from any other device on network and determine if it was suspicious behavior or violated a security policies.  While the AIE was an amazing feat of data science and engineering it had one major problem it was never designed to horizontally scale.  The next year, I worked to optimize our largest clients and come up with the AIE cross correlation design best practices, which gave customers a process by which they could overtime create natural groups of log streams to be sent to dedicated AIEs in order to meet specific use cases.  This was achievable by finding a non-documented feature in the code which allowed you to filter which data went to which AIE based on the rules it hosted and the types of log data needed to satisfy it.  Overtime use cases that required similar log mixes could be grouped together and sent to a single AIE.  This lead to better filtering and more efficient workloads and allowing us to achieve over 100k per AIE as well as simplify data routing for customers with thousands of rules and use cases.
 
 </details>
+  
+<details><summary>LogRhythm and Splunk Integration Guide and Training</summary>
+
+> :warning: **Section Under Construction - Jim C - 1/22/23**
+</details>
+  
+
 
 <details><summary>Scaling to 100k, 200k, and 300k MPS and Elasticsearch Migrations</summary>
 
-After 8 months as a SIEM engineer, I developed a good reputation with folks at LogRhythm and they negotiated my transfer and moved me to Colorado to become a Senior Enterprise Consultant and Team Lead.  I led a team of enterprise engineers that helped LogRhythm's largest customers like Mayo Clinic and Cargill design and build out huge Security Operations Centers centered around the LogRhythm SIEM.  Our team helped save several accounts that were struggling due to the original product's ability to scale beyond a certain point.  First issue, we were on Microsoft SQL for both our log manager and platform manager datastores, which was switching to a per core license model that would significantly impact our margins and a.  The log databases were the first bottleneck where large and complex queries were becoming too slow and we were exhausting our workarounds.  After our team convinced the business that in order to scale to the needed volume and still have a valuable product we needed more durability, horizontal scaling, read throughput, load balancing, and time-series friendly datastore.  The business chose Elasticsearch, where we spent the next 2 years re-architecting, expanding, and migrating all customers to using Elasticsearch.  This lead our customer's to be able to break Logrhythm's barrier of 100k, 200k, 300k Messages Per Second processing, and 75k indexing.
+I led a team of enterprise engineers that helped LogRhythm's largest customers like Mayo Clinic and Cargill design and build out huge Security Operations Centers centered around the LogRhythm SIEM.  Our team helped save several accounts that were struggling due to the original product's ability to scale beyond a certain point.  First issue, we were on Microsoft SQL for both our log manager and platform manager datastores, which was switching to a per core license model that would significantly impact our margins and a.  The log databases were the first bottleneck where large and complex queries were becoming too slow and we were exhausting our workarounds.  After our team convinced the business that in order to scale to the needed volume and still have a valuable product we needed more durability, horizontal scaling, read throughput, load balancing, and time-series friendly datastore.  The business chose Elasticsearch, where we spent the next 2 years re-architecting, expanding, and migrating all customers to using Elasticsearch.  This lead our customer's to be able to break Logrhythm's barrier of 100k, 200k, 300k Messages Per Second processing, and 75k indexing.
 
+</details>
+  
+<details><summary>Best Practices Alarm and Response Guide</summary>
+
+After 8 months as a SIEM engineer, I developed a good reputation with folks at LogRhythm and they negotiated my transfer and moved me to Colorado to become a Senior Enterprise Consultant and Team Lead.  
 </details>
   
 <details><summary>Fishnet Security Inc (Optiv), Cyber Security Bootcamp, and CISSP</summary>
