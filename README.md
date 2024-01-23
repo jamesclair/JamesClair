@@ -1,7 +1,7 @@
 
 # Jim Clair - Cloud Platform Software Engineer
 
-### [Website](https://jimclair.github.io/) | [LinkedIn](https://www.linkedin.com/in/jim-clair) | [Resume](https://jimclair.github.io/resume) | [Email](mailto:clair.james88@gmail.com)
+## [Website](https://jimclair.github.io/) | [LinkedIn](https://www.linkedin.com/in/jim-clair) | [Resume](https://jimclair.github.io/resume) | [Email](mailto:clair.james88@gmail.com)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
