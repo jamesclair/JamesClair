@@ -1,5 +1,5 @@
 
-# Jim Clair - Cloud Platform Software Engineer
+# James Clair - Cloud Platform Software Engineer
 
 ## [Website](https://jimclair.github.io/) | [LinkedIn](https://www.linkedin.com/in/jim-clair) | [Resume](https://jimclair.github.io/resume) | [Email](mailto:clair.james88@gmail.com)
 
