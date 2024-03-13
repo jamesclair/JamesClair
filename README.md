@@ -1,7 +1,7 @@
 
 # James Clair - Cloud Platform Software Engineer
 
-## [Website](https://jimclair.github.io/) | [LinkedIn](https://www.linkedin.com/in/jim-clair) | [Resume](https://jimclair.github.io/resume) | [Email](mailto:clair.james88@gmail.com)
+## [Website](https://jamesclair.github.io/) | [LinkedIn](https://www.linkedin.com/in/jamesclair) | [Resume](https://jamesclair.github.io/resume) | [Email](mailto:clair.james88@gmail.com)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -48,19 +48,19 @@ I was responsible for the creation of an enterprise platform as well as hiring a
     
   <details><summary>Opensource First</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/22/23**
+   > :warning: **Section Under Construction - James C - 1/22/23**
 
   </details>
 
    <details><summary>Container First</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/22/23**
+   > :warning: **Section Under Construction - James C - 1/22/23**
 
    </details>
 
    <details><summary>DevSecOps</summary>
    
-   > :warning: **Section Under Construction - Jim C - 1/22/23**
+   > :warning: **Section Under Construction - James C - 1/22/23**
 
   </details>
   
@@ -74,67 +74,67 @@ I was responsible for the creation of an enterprise platform as well as hiring a
   </details>
   <details><summary>AWS  Footprint</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
   
   <details><summary>IDP Integration (AWS, Okta, Keycloak, and Pomerium)</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Vault Operator</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Github Actions and CICD pipeline</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Auto Promotions</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Localdev Provisioning</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
 
   <details><summary>Microservice Operator (Ansible)</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>S3 Integration</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Firechief Program</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
   <details><summary>Kops CICD</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
     
    <details><summary>Opensearch Operator (Golang)</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
 
   <details><summary>Sonarqube Scans</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
  
   <details><summary>Flink Operator(s)</summary>
   
-  > :warning: **Section Under Construction - Jim C - 1/22/23**
+  > :warning: **Section Under Construction - James C - 1/22/23**
   </details>
 
   </blockquote>
@@ -157,7 +157,7 @@ TeamScheduler is an extendable application that a global service team could use 
 <details><summary><href>
 <a href="https://github.com/jamesclair/CareerAdvisorBot">CareerAdvisorBot</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 
 </details>
 
@@ -178,13 +178,13 @@ InventorySystem was a Java app I built while learning JavaFX and MVC patterns.  
 
 <details><summary><a href="https://github.com/jamesclair/user_store">REST Security in Spring Boot</a></summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 
 </details>
   
 <details><summary>Mistnet</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 </details>
   
   
@@ -192,17 +192,17 @@ InventorySystem was a Java app I built while learning JavaFX and MVC patterns.  
 <details><summary>LRCloud</summary>
 As our platform manager quickly became our toughest bottleneck with events, alarms, and metadata datastore volumes began to climb, and repartitioning and maintenance jobs were unable to finish.  As a result, queries slowed, indexing slowed, and retention decreased.  Unfortunately, Engineering was unable to find a cost-effective or viable path for migrating away from Microsoft SQL for the PM because it held too much of our business logic in stored procedures.  This would make it very difficult to replace the datastore without having to recreate or migrate all of that logic with it.  
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 </details>
 
 <details><summary>CloudAI Service Launch</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 </details>
   
 <details><summary>Early Access Program</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 </details>
 
 <details><summary>Release Champion Program and Increased Release Cadence</summary>
@@ -218,7 +218,7 @@ While we had bought ourselves time with the ES migration, this was only the begi
   
 <details><summary>LogRhythm and Splunk Integration Guide and Training</summary>
 
-> :warning: **Section Under Construction - Jim C - 1/22/23**
+> :warning: **Section Under Construction - James C - 1/22/23**
 </details>
   
 
